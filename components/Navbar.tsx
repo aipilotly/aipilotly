@@ -19,12 +19,12 @@ export default function Navbar() {
 
   const menuItems = [
     { href: '#home', label: 'Home' },
-    { href: '#about-us', label: 'About Us' },
+    { href: '#about-us', label: 'About' },
     { href: '#services', label: 'Services' },
-    { href: '#industries', label: 'Industries We Serve' },
+    { href: '#industries', label: 'Industries' },
     { href: '#portfolio', label: 'Portfolio' },
-    { href: '#why-choose-us', label: 'Why Choose Us' },
-    { href: '#contact-us', label: 'Contact Us' },
+    { href: '#why-choose-us', label: 'Our DNA' },
+    { href: '#contact-us', label: 'Contact' },
   ]
 
   const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
