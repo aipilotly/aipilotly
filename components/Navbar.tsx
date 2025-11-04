@@ -95,7 +95,7 @@ export default function Navbar() {
               whileTap={{ scale: 0.95 }}
               className="hidden md:block px-6 py-2 bg-gradient-to-r from-[#0234aa] to-cyan-500 rounded-full text-white font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300"
             >
-              Let's Talk About Your Idea
+              Let’s Connect
             </motion.a>
 
             {/* Mobile Menu Button */}
@@ -142,7 +142,7 @@ export default function Navbar() {
                 className="w-full mt-4 px-6 py-2 bg-gradient-to-r from-[#0234aa] to-cyan-500 rounded-full text-white font-semibold text-center block"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Let's Talk About Your Idea
+                Let’s Connect
               </motion.a>
             </div>
           </motion.div>
