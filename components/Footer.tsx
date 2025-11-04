@@ -16,12 +16,12 @@ export default function Footer() {
 
   const quickLinks = [
     { href: '#home', label: 'Home' },
-    { href: '#about-us', label: 'About Us' },
+    { href: '#about-us', label: 'About' },
     { href: '#services', label: 'Services' },
-    { href: '#industries', label: 'Industries We Serve' },
+    { href: '#industries', label: 'Industries' },
     { href: '#portfolio', label: 'Portfolio' },
-    { href: '#why-choose-us', label: 'Why Choose Us' },
-    { href: '#contact-us', label: 'Contact Us' },
+    { href: '#why-choose-us', label: 'Our DNA' },
+    { href: '#contact-us', label: 'Contact' },
   ]
 
   return (
