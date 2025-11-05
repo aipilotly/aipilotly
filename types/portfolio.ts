@@ -6,7 +6,8 @@ export interface Portfolio {
   tags: string[]
   gradientStart: string
   gradientEnd: string
-  liveUrl: string
+  liveUrl?: string
   githubUrl?: string
+  imageUrl?: string
 }
 
