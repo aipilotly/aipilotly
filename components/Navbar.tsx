@@ -67,7 +67,7 @@ export default function Navbar() {
             <Logo showSubline={false} size="md" isScrolled={scrolled} />
           </a>
           
-          {/* Desktop Menu */}
+          {/* Desktop Menu and CTA Button - Grouped together on the right */}
           <div className="hidden lg:flex items-center space-x-6">
             {menuItems.map((item) => (
               <a
@@ -83,9 +83,6 @@ export default function Navbar() {
                 {item.label}
               </a>
             ))}
-          </div>
-
-          <div className="flex items-center gap-4">
             {/* Desktop CTA Button */}
             <motion.a
               href="https://wa.me/919035712688?text=Hi%20Aipilotly!%20I%27ve%20got%20an%20idea/project%20—%20let%27s%20talk%3F"
@@ -93,15 +90,17 @@ export default function Navbar() {
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="hidden md:block px-6 py-2 bg-gradient-to-r from-[#0234aa] to-cyan-500 rounded-full text-white font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300"
+              className="px-6 py-2 bg-gradient-to-r from-[#0234aa] to-cyan-500 rounded-full text-white font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300"
             >
-              Let’s Connect
+              Let's Connect
             </motion.a>
+          </div>
 
-            {/* Mobile Menu Button */}
+          {/* Mobile Menu Button */}
+          <div className="flex items-center gap-4 lg:hidden">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className={`lg:hidden p-2 transition-colors ${
+              className={`p-2 transition-colors ${
                 scrolled ? 'text-gray-900' : 'text-white'
               }`}
               aria-label="Toggle menu"
