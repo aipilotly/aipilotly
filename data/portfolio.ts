@@ -1,17 +1,17 @@
 import { Portfolio } from '@/types/portfolio'
 
 export const portfolioData: Portfolio[] = [
-  {
-    id: 'new-1',
-    title: 'LawChanakyas (Courtroom)',
-    description: 'Recreated legal courtroom scenarios using AI & ML for immersive learning.',
-    category: 'AI & Machine Learning',
-    tags: ['AI', 'ML', 'Legal Tech', 'Simulation'],
-    gradientStart: '#0234aa',
-    gradientEnd: '#00a8ff',
-    liveUrl: 'https://www.lawchanakyas.com/',
-    imageUrl: '/1.png',
-  },
+  // {
+  //   id: 'new-1',
+  //   title: 'LawChanakyas (Courtroom)',
+  //   description: 'Recreated legal courtroom scenarios using AI & ML for immersive learning.',
+  //   category: 'AI & Machine Learning',
+  //   tags: ['AI', 'ML', 'Legal Tech', 'Simulation'],
+  //   gradientStart: '#0234aa',
+  //   gradientEnd: '#00a8ff',
+  //   liveUrl: 'https://www.lawchanakyas.com/',
+  //   imageUrl: '/1.png',
+  // },
   {
     id: 'new-2',
     title: 'Police Commissioner ERP',
