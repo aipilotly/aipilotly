@@ -33,26 +33,26 @@ export default function ContactUs() {
         >
           <div className="space-y-6">
             <motion.a
-              href="mailto:ashokverse1605@gmail.com"
+              href="mailto:info@aipilotly.com"
               whileHover={{ scale: 1.05, x: 10 }}
               className="flex items-center gap-4 text-white hover:text-cyan-400 transition-colors"
             >
               <div className="p-3 bg-cyan-500/20 rounded-lg">
                 <Mail className="w-6 h-6 text-cyan-400" />
               </div>
-              <span className="text-lg md:text-xl">ashokverse1605@gmail.com</span>
+              <span className="text-lg md:text-xl">info@aipilotly.com</span>
             </motion.a>
 
-            <motion.a
-              href="tel:+919035712688"
+            {/* <motion.a
+              href="tel:+91 "
               whileHover={{ scale: 1.05, x: 10 }}
               className="flex items-center gap-4 text-white hover:text-cyan-400 transition-colors"
             >
               <div className="p-3 bg-cyan-500/20 rounded-lg">
                 <Phone className="w-6 h-6 text-cyan-400" />
               </div>
-              <span className="text-lg md:text-xl">+91-9035712688</span>
-            </motion.a>
+              <span className="text-lg md:text-xl">+91- </span>
+            </motion.a> */}
 
             <motion.a
               href="https://aipilotly.com"

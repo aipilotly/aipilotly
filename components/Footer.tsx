@@ -76,13 +76,13 @@ export default function Footer() {
               <li className="flex items-start gap-2">
                 <Mail className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
                 <a
-                  href="mailto:ashokverse1605@gmail.com"
+                  href="mailto:info@aipilotly.com"
                   className="hover:text-cyan-400 transition-colors"
                 >
-                  ashokverse1605@gmail.com
+                  info@aipilotly.com
                 </a>
               </li>
-              <li className="flex items-start gap-2">
+              {/* <li className="flex items-start gap-2">
                 <svg
                   className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5"
                   fill="none"
@@ -97,12 +97,12 @@ export default function Footer() {
                   />
                 </svg>
                 <a
-                  href="tel:+919035712688"
+                  href="tel:+91 "
                   className="hover:text-cyan-400 transition-colors"
                 >
-                  +91-9035712688
+                  +91- 
                 </a>
-              </li>
+              </li> */}
               <li className="flex items-start gap-2">
                 <svg
                   className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5"

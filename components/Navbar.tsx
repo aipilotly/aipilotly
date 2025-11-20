@@ -85,7 +85,7 @@ export default function Navbar() {
             ))}
             {/* Desktop CTA Button */}
             <motion.a
-              href="https://wa.me/919035712688?text=Hi%20Aipilotly!%20I%27ve%20got%20an%20idea/project%20—%20let%27s%20talk%3F"
+              href="https://wa.me/91 ?text=Hi%20Aipilotly!%20I%27ve%20got%20an%20idea/project%20—%20let%27s%20talk%3F"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
@@ -133,7 +133,7 @@ export default function Navbar() {
                 </a>
               ))}
               <motion.a
-                href="https://wa.me/919035712688?text=Hi%20Aipilotly!%20I%27ve%20got%20an%20idea/project%20—%20let%27s%20talk%3F"
+                href="https://wa.me/91 ?text=Hi%20Aipilotly!%20I%27ve%20got%20an%20idea/project%20—%20let%27s%20talk%3F"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
